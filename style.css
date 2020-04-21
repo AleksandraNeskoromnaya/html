@@ -1,0 +1,133 @@
+body {
+    background-color: #edeef0;
+    font-family: Helvetica;
+    font-weight: normal;
+	font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: white;
+    margin: 2%;
+    border-radius: 1%/15%;
+    min-height: auto;
+    min-width: auto;
+    overflow: auto;
+}
+ul {
+    list-style-type: none;
+}
+.nav li {
+    display: inline-block;
+    width: 31%;
+    margin-left: 1%;
+}
+.nav a {
+    display: block;
+    border-radius: 5%/15%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    columns: 3;
+    padding: 10%;
+}
+.active {
+    background-color: gainsboro;
+}
+.photo {
+    background-color: white;
+    float: left;
+    max-width: 30%;
+    border-radius: 5%/5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+img {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+.edit {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.edit_btn {
+    display: inline-block;
+    border-radius: 5%/15%;
+    background-color: #e5ebf1;
+    padding: 3% 10%;
+    margin: 0 1%;
+    text-align: center;
+}
+.info {
+    background-color: white;
+    float: right;
+    width: 64%;
+    margin-right: 2%;
+    border-radius: 2%/3%;
+}
+.short_info{
+    margin: 2%;
+}
+.status{
+    color: grey;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.name {
+    margin-left: 2%;
+}
+.current_info{
+    color: grey;
+    margin-left: 2%;
+}
+hr {
+    width: 90%;
+}
+.main_info{
+    margin: 2%;
+}
+.main_info_q {
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: grey;
+    min-width: 30%;
+}
+.main_info_a {
+    float: left;
+    color: mediumblue;
+    margin-top: 1%;
+    width: 66%;
+    margin-right: 2%;
+}
+.main_info_other {
+    float: left;
+    margin: 1% 2%;
+    padding: 1% 31%;
+    text-align: center;
+    border-radius: 1%/15%;
+}
+.main_info_other:hover {
+    background-color: lightgray;
+}
+.other_info {
+    display: inline-block;
+    columns: 5;
+    margin: 2%;
+    width: 94%;
+}
+.other_info_count {
+    text-align: center;
+    color: mediumblue;
+    font-size: 150%;
+}
+.other_info_label {
+    text-align: center;
+    color: grey;
+}
+.other_info_label:hover{
+    color: mediumblue;
+}
